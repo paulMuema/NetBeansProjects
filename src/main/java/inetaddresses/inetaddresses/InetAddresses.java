@@ -14,7 +14,7 @@ public class InetAddresses {
 
     public static void main(String[] args) {
         
-        String filePath = "C:\\Users\\hp\\Desktop\\USIU\\Assignments_and_notes\\Programming with Networks\\test.txt";
+        String filePath = "C:\\Users\\hp\\Desktop\\USIU\\Assignments_and_notes\\Programming with Networks\\input.txt";
         
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
